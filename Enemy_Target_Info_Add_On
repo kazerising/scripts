@@ -1,11 +1,10 @@
 #==============================================================================
 # 
 # ▼ Yanfly Engine Ace - Enemy Target Info 
-#     Additional pages Add-On by kazerising / aka Orphen89
+#     Additional pages Add-On v1.00
+#      by kazerising / aka Orphen89
 #    Follow Yanfly's initial terms. Credit to me is unnecessary. 
 #    "https://yanflychannel.wordpress.com/terms-of-use/"
-# -- Last Updated: 2012.01.01
-# -- Level: Normal
 # -- Requires: YEA - Ace Battle Engine v1.10+.
 #              YEA - Enemy Target Info v1.02+
 # 
@@ -16,8 +15,8 @@
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 # Script is created to provide an update of Yanfly's Enemy Target info to 
 # allow the use of multiple pages to provide more than 8 elements or states.
-# With this script you can now have up to 16 elements and 16 states in a box
-# if needed in your game. 
+# With this script you can now have up to 16 elements and 16 states through
+# the use of additional window boxes, if needed in your game. 
 #==============================================================================
 #==============================================================================
 # ▼ Instructions
@@ -36,7 +35,7 @@ module YEA
 		PAGE_ORDER =[
 			:parameters,
 			:elements,
-      :elements2,
+			:elements2,
 			:states,
 			:states2
 		]
@@ -50,13 +49,8 @@ module YEA
 
     ELEMENT_ICONS2   ={         # Contains element icon information.
     # Element ID => Icon,
-               11 =>  102, # Light
-               12 =>  103, # Dark
-               13 =>  106, # Celestial
-               15 =>  107, # Tone
-               16 =>  84, # Slash
-               17 =>  82, # Pierce
-               18 =>  87, # Blunt
+               11 =>  102, # Element ID => Icon
+               12 =>  103, # Element ID => Icon
     } # Do not remove this    
 
 
